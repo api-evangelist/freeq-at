@@ -1,4 +1,4 @@
-# freeq-at
+# freeq
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-freeq-at is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://freeq.at/
+freeq is chat infrastructure for humans and AI agents: cryptographic identity (Bluesky for people, did:key for agents), signed messages, verifiable channel policies, voice sessions, end‑to‑end encryption, CRDT federation — all as backwards‑compatible IRC. It provides a JSON API for verification, encryption, federation and agent‑centric features, with open documentation and free open‑source implementation.
+
+**Areas:** Chat · Identity · Encryption · OpenSource · IRC
+
+## freeq on APIs.io
+
+Everything profiled for freeq is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/freeq-at/](https://apis.io/providers/freeq-at/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [freeq IRC API](https://apis.io/apis/freeq-at/freeq-irc-api/) — AT Protocol-authenticated IRC server JSON API for agents.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [freeq Authentication](https://apis.io/security/freeq-at/freeq-at-authentication/)
+- [freeq Domain Security](https://apis.io/security/freeq-at/freeq-at-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://freeq.at/)
+- [Documentation](https://freeq.at/docs/)
+- [Getting started](https://freeq.at/docs/getting-started.md)
+- [API reference](https://freeq.at/llms.txt)
+- [Support](https://freeq.at/contact/)
+- [Changelog](https://freeq.at/docs/whats-new/)
+- [Blog](https://freeq.at/blog/)
+- [Privacy policy](https://freeq.at/privacy/)
+- [GitHub](https://github.com/freeq-irc/freeq)
+
+## API Evangelist rating
+
+**Kin Score 34.0** — thin · rubric 0.27.0 · scored 2026-11-09
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 30.5 |
+| Contract governance | 16.4 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 61.2 |
+| Access clarity | 10.5 |
+
+**Agent readiness 27.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | documented (partial credit) |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 20.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/freeq-at/](https://apis.io/providers/freeq-at/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for freeq: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/freeq-at/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
